@@ -1,10 +1,10 @@
-# **[TransferLearningViaModelRisk](https://github.com/syjcomputer/TransferLearningViaModelRisk)**
+# **[TransferLearningViaModelRisk](https://github.com/syjcomputer/RMTransfer)**
 
 本项目为在少量样本情况下借用风险分析模型微调预训练模型，主要针对新闻分类任务的迁移学习任务。
 
 风险分析框架如下图：
 
-![risklearn](D:\risk_for_text_cls_for_git\risklearn.png)
+![risklearn](risklearn.png)
 
 迁移学习对比结果如下：
 
