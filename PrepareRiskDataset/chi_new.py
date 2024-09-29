@@ -8,14 +8,12 @@ import pickle
 import pandas as pd
 from os.path import join
 import numpy as np
-# import matplotlib.pyplot as plt
-# import umap
 from queue import Queue,PriorityQueue
 from collections import Counter
 from sklearn import metrics
 from sklearn.feature_selection import VarianceThreshold
 from sklearn.decomposition import PCA
-from prepareRiskDataset.config.overall_config import *
+from PrepareRiskDataset.config.overall_config import *
 
 data_name = f'{source_dataset}_bert'
 cur_path = './{}/{}/'.format(data_name, rate)
@@ -43,12 +41,6 @@ def data_pro(name_list):
 
         print("ENG~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         stopwords = stopwordslist("./stopwords/en.txt")
-    # if data_name in ["20News_bert", "Semeval_bert", "BBC_bert", "SST_bert"]:
-    #     print("ENG~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-    #     stopwords = stopwordslist("./stopwords/en.txt")
-    # else:
-    #     print("CHA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-    #     stopwords = stopwordslist("./stopwords/cn_stopwords.txt")
 
     for name in name_list:
 
@@ -60,7 +52,7 @@ def data_pro(name_list):
         #     path = cur_path + '{}.json'.format(name)
         # else:
         #     path = fine_tune_path + '{}.json'.format(name)
-        path = fine_tune_path + '{}.json'.format(name)
+        path = cur_path + '{}.json'.format(name)
 
         with open(path, 'r', encoding='UTF-8') as f:
             all = json.load(f)
@@ -581,7 +573,7 @@ def chi_new_cate(train_txt, train_labels, test_txt, test_labels, val_txt, val_la
 
     # Save the final csv
     count_all.insert(0, header)
-    pd.DataFrame(count_all).to_csv(join(cur_path, "chi_token_new.csv"), header=None, index=None)
+    pd.DataFrame(count_all).to_csv(join(fine_tune_path, "chi_token_new.csv"), header=None, index=None)
 
     labels_all = []
     predict_all = []

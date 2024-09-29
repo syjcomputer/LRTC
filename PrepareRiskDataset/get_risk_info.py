@@ -5,10 +5,10 @@ from os.path import join
 
 import numpy as np
 import pandas as pd
-from get_distance import get_distance
-from get_knn_count import get_knn_count
-from get_token_count import get_token_count
-from get_cluster_count import get_cluster_count
+from PrepareRiskDataset.get_distance import get_distance
+from PrepareRiskDataset.get_knn_count import get_knn_count
+from PrepareRiskDataset.get_token_count import get_token_count
+from PrepareRiskDataset.get_cluster_count import get_cluster_count
 from copy import deepcopy
 
 
@@ -84,7 +84,7 @@ def get_risk_info(
 
     #cnn = "cur"   # token
     for tn in token_name:
-      csv_path_list.append(join(csv_dir_str.format(data_dir, 'bert'), "{}_token_new.csv".format(tn)))  # token
+      csv_path_list.append(join(csv_dir_str.format(fine_tune_dir, 'bert'), "{}_token_new.csv".format(tn)))  # token
       #csv_path_list.append(join(csv_dir_str.format(data_dir, 'cur'), "{}_token_new.csv".format(tn)))  # token
 
     # csv_path_list.append(join(csv_dir_str.format(data_dir, cnn), "cluster_count.csv"))  # count

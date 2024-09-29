@@ -1,12 +1,12 @@
-# **[TransferLearningViaModelRisk](https://github.com/syjcomputer/RMTransfer)**
+# **[TransferLearningForTextClassificationViaModelRisk](https://github.com/syjcomputer/RMTransfer)**
 
-本项目为在少量样本情况下借用风险分析模型微调预训练模型，主要针对新闻分类任务的迁移学习任务。
+This project is the code for fine-tuning pre-trained NLP models via RiskAnalysis on small samples, mainly focused on news classification. In this project, we take Bert as an example, you can use other nlp models.
 
-风险分析框架如下图：
+The base frame of RiskAnalysis as follows：
 
 ![risklearn](risklearn.png)
 
-迁移学习对比结果如下：
+The comparison results with other models are as follows:
 
 |           | 20News-AgNews | AgNews-20News | AgNews-BBC | BBC-AgNews | BBC-20News | 20News-BBC |
 | --------- | ------------- | ------------- | ---------- | ---------- | ---------- | ---------- |
@@ -23,7 +23,7 @@
 
 
 ## Installation
-
+### Requirement
 ```
 python==3.7
 torch==1.8.0+cu11
@@ -36,28 +36,30 @@ scikit-learn==1.0.2
 
 ## Quick Start
 
-### 文档结构
-
-
-
-### 数据准备
-
-
-
-### 模型准备
-
-### 运行顺序
-
+### Data Prepare
+The origin dataset need to be prepared in the folder named**PrepareRiskDataset/{source_dataset}/1.0** as follows:
 ```
-zh_get_risk_dataset.get_risk_dataset.py -> 
-
-OneSideDecisionTree.zh_decision_tree_2rules.py -> 
-
-risk.zh_train-diedai.py
+AgNews_bert
+ |-1.0- |-train.json # dataset from source dataset
+ |      |-val.json  # dataset from target dataset
+ |      |-test.json # dataset from source dataset
+ |
+ |-class.txt # class nums, each line represent a class
 ```
+The json file must include **'text'** and **'label'** for each document.
 
+### Usage
+You should execute program in order as follows:
+```
+PrepareRiskDataset
+
+OneSideDecisionTree
+
+RiskAnalysis
+```
+We prepare readme.md for each part in each project folder.
 ## Citations
-
+If you find this repo or our work useful for your research, please consider citing the paper
 ```bibtex
 
 ```

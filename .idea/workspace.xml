@@ -1,75 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="658e8987-6bc8-4c0a-81f1-be4f623f03bd" name="Default Changelist" comment="" />
+    <list default="true" id="658e8987-6bc8-4c0a-81f1-be4f623f03bd" name="Default Changelist" comment="change readme file">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/chi_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/chi_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/config/get_feature_vector_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/config/get_feature_vector_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/config/overall_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/config/overall_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/config/train_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/config/train_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/get_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/get_distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/get_feature_vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/get_feature_vector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/get_knn_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/get_knn_count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/get_one_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/get_one_distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/get_one_knn_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/get_one_knn_count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/get_one_risk_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/get_one_risk_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/get_risk_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/get_risk_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/get_risk_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/get_risk_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/README" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/cn_stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/cn_stopwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/de.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/de.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/en.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/en.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/fi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/fi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/fr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/fr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/jp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/jp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/nl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/nl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/stopwords-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/stopwords-master/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/stopwords-master/baidu_stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/stopwords-master/baidu_stopwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/stopwords-master/cn_stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/stopwords-master/cn_stopwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/stopwords-master/hit_stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/stopwords-master/hit_stopwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stop/stopwords-master/scu_stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stop/stopwords-master/scu_stopwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stopwords/cn_stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stopwords/cn_stopwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/stopwords/en.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/stopwords/en.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/train_bert.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/train_bert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/train_textcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/train_textcnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepareRiskDataset/train_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrepareRiskDataset/train_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/riskAnalysisForTextClassification$get_feature_vector.coverage" NAME="get_feature_vector Coverage Results" MODIFIED="1727532525503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareRiskDataset" />
+    <SUITE FILE_PATH="coverage/riskAnalysisForTextClassification$train_textcnn.coverage" NAME="train_textcnn Coverage Results" MODIFIED="1727528233618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareRiskDataset" />
+    <SUITE FILE_PATH="coverage/riskAnalysisForTextClassification$get_risk_dataset.coverage" NAME="get_risk_dataset Coverage Results" MODIFIED="1727534848949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrepareRiskDataset" />
+    <SUITE FILE_PATH="coverage/riskAnalysisForTextClassification$ada_train.coverage" NAME="ada_train Coverage Results" MODIFIED="1727541475240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RiskAnalysis" />
+    <SUITE FILE_PATH="coverage/riskAnalysisForTextClassification$train_bert.coverage" NAME="train_bert Coverage Results" MODIFIED="1727527784504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prepareRiskDataset" />
+    <SUITE FILE_PATH="coverage/riskAnalysisForTextClassification$chi_new.coverage" NAME="chi_new Coverage Results" MODIFIED="1727533919129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PrepareRiskDataset" />
+    <SUITE FILE_PATH="coverage/riskAnalysisForTextClassification$decision_tree_rules.coverage" NAME="decision_tree_rules Coverage Results" MODIFIED="1727535525702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OneSideDecisionTree" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prepareRiskDataset/train_textcnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#25#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prepareRiskDataset/train_bert.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="251" column="5" lean-forward="true" selection-start-line="251" selection-start-column="5" selection-end-line="251" selection-end-column="5" />
-              <folding>
-                <element signature="e#46#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prepareRiskDataset/config/overall_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prepareRiskDataset/config/train_config.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prepareRiskDataset/chi_new.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prepareRiskDataset/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,23 +63,58 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fine_tune_path</find>
+      <find>global_deep_learning_selection</find>
+      <find>raw_decision_tree_rules_path</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/prepareRiskDataset/train_textcnn.py" />
         <option value="$PROJECT_DIR$/prepareRiskDataset/chi_new.py" />
-        <option value="$PROJECT_DIR$/prepareRiskDataset/config/overall_config.py" />
-        <option value="$PROJECT_DIR$/prepareRiskDataset/readme.md" />
         <option value="$PROJECT_DIR$/prepareRiskDataset/train_bert.py" />
+        <option value="$PROJECT_DIR$/prepareRiskDataset/train_textcnn.py" />
+        <option value="$PROJECT_DIR$/prepareRiskDataset/config/train_config.py" />
+        <option value="$PROJECT_DIR$/prepareRiskDataset/config/overall_config.py" />
+        <option value="$PROJECT_DIR$/prepareRiskDataset/get_feature_vector.py" />
+        <option value="$PROJECT_DIR$/prepareRiskDataset/config/get_feature_vector_config.py" />
+        <option value="$PROJECT_DIR$/prepareRiskDataset/readme.md" />
+        <option value="$PROJECT_DIR$/PrepareRiskDataset/AgNews_bert/1.0/class.txt" />
+        <option value="$PROJECT_DIR$/PrepareRiskDataset/chi_new.py" />
+        <option value="$PROJECT_DIR$/PrepareRiskDataset/get_one_risk_info.py" />
+        <option value="$PROJECT_DIR$/PrepareRiskDataset/get_risk_dataset.py" />
+        <option value="$PROJECT_DIR$/PrepareRiskDataset/get_risk_info.py" />
+        <option value="$PROJECT_DIR$/PrepareRiskDataset/readme.md" />
+        <option value="$PROJECT_DIR$/OneSideDecisionTree/decision_tree_rules.py" />
+        <option value="$PROJECT_DIR$/OneSideDecisionTree/readme.md" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/data_process/decision_tree_2_rules.py" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/data_process/npydata_2_riskdata.py" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/data_process/similarity_based_feature.py" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/risker/risk_2_torch_model.py" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/common/utils.py" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/risker/torch_learn_weights.py" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/risker/risk_torch_model.py" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/data_process/risk_dataset.py" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/readme.md" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/ada_train.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/PrepareRiskDataset/config/overall_config.py" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/common/config.py" />
+        <option value="$PROJECT_DIR$/RiskAnalysis/utils.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1430" />
+    <option name="x" value="358" />
     <option name="width" value="1462" />
     <option name="height" value="1716" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -108,6 +128,11 @@
               <item name="riskAnalysisForTextClassification" type="b2602c69:ProjectViewProjectNode" />
               <item name="riskAnalysisForTextClassification" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="riskAnalysisForTextClassification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="riskAnalysisForTextClassification" type="462c0819:PsiDirectoryNode" />
+              <item name="RiskAnalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -119,12 +144,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pycharm_projects\riskAnalysisForTextClassification\PrepareRiskDataset\AgNews_bert" />
+      <recent name="E:\pycharm_projects\riskAnalysisForTextClassification\prepareRiskDataset\AgNews_bert\1.0" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\pycharm_projects\riskAnalysisForTextClassification\prepareRiskDataset" />
+      <recent name="E:\pycharm_projects\riskAnalysisForTextClassification\RiskAnalysis" />
+      <recent name="E:\pycharm_projects\riskAnalysisForTextClassification\PrepareRiskDataset" />
+      <recent name="E:\pycharm_projects\riskAnalysisForTextClassification\OneSideDecisionTree" />
       <recent name="E:\pycharm_projects\riskAnalysisForTextClassification\prepareRiskDataset\config" />
+      <recent name="E:\pycharm_projects\riskAnalysisForTextClassification\prepareRiskDataset\AgNews_bert\1.0" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -139,6 +171,127 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.ada_train">
+    <configuration name="ada_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="riskAnalysisForTextClassification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RiskAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RiskAnalysis/ada_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chi_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="riskAnalysisForTextClassification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrepareRiskDataset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrepareRiskDataset/chi_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="decision_tree_rules" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="riskAnalysisForTextClassification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OneSideDecisionTree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OneSideDecisionTree/decision_tree_rules.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_feature_vector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="riskAnalysisForTextClassification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prepareRiskDataset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepareRiskDataset/get_feature_vector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_risk_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="riskAnalysisForTextClassification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PrepareRiskDataset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrepareRiskDataset/get_risk_dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ada_train" />
+        <item itemvalue="Python.decision_tree_rules" />
+        <item itemvalue="Python.get_risk_dataset" />
+        <item itemvalue="Python.chi_new" />
+        <item itemvalue="Python.get_feature_vector" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -149,65 +302,128 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727505630949</updated>
-      <workItem from="1727505632056" duration="2938000" />
+      <workItem from="1727505632056" duration="24205000" />
+      <workItem from="1727590114320" duration="260000" />
     </task>
+    <task id="LOCAL-00001" summary="the image of risk learn framework">
+      <created>1727509110123</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727509110123</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change readme file">
+      <created>1727509885237</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727509885237</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2938000" />
+    <option name="totallyTimeSpent" value="24465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1453" height="865" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23644252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2935647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.105932206" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35643566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.14992929" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.10466761" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="the image of risk learn framework" />
+    <MESSAGE value="change readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="change readme file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PrepareRiskDataset/get_feature_vector.py</url>
+          <line>232</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PrepareRiskDataset/get_risk_info.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PrepareRiskDataset/get_risk_info.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OneSideDecisionTree/decision_tree_rules.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RiskAnalysis/common/config.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RiskAnalysis/common/config.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>os.path.split(rootPath)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>fine_tune_dir</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>csv_dir_str</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/get_risk_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#1#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/get_distance.py">
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/stopwords/en.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/stopwords/en.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/train_util.py">
+    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/config.py" />
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/train_util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-4881">
           <caret lean-forward="true" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -215,66 +431,362 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/config.py">
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/AgNews_bert/1.0/test.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/train_textcnn.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/-839510165/-233406526/torchtext/vocab.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="326" selection-start-line="326" selection-end-line="326" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OneSideDecisionTree/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OneSideDecisionTree/common/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3138">
           <folding>
-            <element signature="e#25#40#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/get_feature_vector.py">
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/AgNews_bert/class.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OneSideDecisionTree/rules_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4800">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/chi_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="575" column="54" selection-start-line="575" selection-start-column="54" selection-end-line="575" selection-end-column="54" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/get_distance.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/readme.md">
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/get_feature_vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+          <folding>
+            <element signature="e#52#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/get_knn_count.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/get_one_distance.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/get_one_knn_count.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/get_one_token_count.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/get_one_cluster_count.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/get_one_risk_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#1#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/get_cluster_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/get_risk_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/get_risk_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OneSideDecisionTree/decision_tree_rules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="751" column="14" selection-start-line="751" selection-start-column="14" selection-end-line="751" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/data_process/data_merge.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/data_process/data_setting.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/data_process/decision_tree_2_rules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9625">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/data_process/npydata_2_riskdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/data_process/rules_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/data_process/rules_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/data_process/similarity_based_feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/data_process/write2riskcsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/data_process/write2rulescsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/risker/pytorchtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/risker/risk_2_torch_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/risker/risk_torch_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="140" column="51" selection-start-line="140" selection-start-column="51" selection-end-line="140" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/risker/torch_learn_weights.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="672" column="57" selection-start-line="672" selection-start-column="57" selection-end-line="672" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/risklearn.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="375">
+            <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/train_bert.py">
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/data_process/risk_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="251" column="5" lean-forward="true" selection-start-line="251" selection-start-column="5" selection-end-line="251" selection-end-column="5" />
+        <state relative-caret-position="129">
+          <caret line="372" selection-start-line="372" selection-end-line="372" />
           <folding>
-            <element signature="e#46#64#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/config/overall_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="50">
+            <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/config/train_config.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/config/overall_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/config/train_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/config/get_feature_vector_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="593">
-            <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <first_editor relative-caret-position="100">
+            <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepareRiskDataset/chi_new.py">
+    <entry file="file://$PROJECT_DIR$/OneSideDecisionTree/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="7" column="111" selection-start-line="7" selection-start-column="111" selection-end-line="7" selection-end-column="111" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/common/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="-3949">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4150">
+          <caret line="166" column="22" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiskAnalysis/ada_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8774">
+          <caret line="45" column="57" lean-forward="true" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/train_textcnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5025">
+          <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareRiskDataset/train_bert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4050">
+          <caret line="172" column="11" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="11" />
         </state>
       </provider>
     </entry>

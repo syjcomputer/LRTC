@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*-
 import argparse
 import os
@@ -8,13 +7,13 @@ import torch.nn as nn
 import torch.nn.functional as F
 from tqdm import tqdm
 
-from train_util import *
+from PrepareRiskDataset.train_util import *
 from bert4keras.snippets import sequence_padding
 import jieba
 import torchtext
 from torchtext.data import Field,TabularDataset,Iterator,BucketIterator,LabelField
+from PrepareRiskDataset.config.train_config import *
 
-device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
 
 def stopwordslist(path):
     stopwords = [line.strip() for line in open(path, encoding='UTF-8').readlines()]
@@ -100,55 +99,6 @@ class TextCNN(nn.Module):
 
         logits = self.fc(x2) # 全接连层 例：输入x是[128,48] 输出logits是[128,10]
         return logits, x1, x2
-
-
-def get_params():
-    # Training settings
-    parser = argparse.ArgumentParser(description='zh_train')
-    # need revise
-    parser.add_argument('--label_num', type=int, default=4,
-                        help='blank')
-    parser.add_argument('--filter_num', type=int, default=16,
-                        help='blank')
-    parser.add_argument('--filter_sizes', type=list, default=[2,3,4],
-                        help='blank')
-    parser.add_argument('--vocab_size', type=int, default=3,
-                        help='blank')
-    parser.add_argument('--embedding_dim', type=int, default=100,
-                        help='blank')
-    parser.add_argument('--static', type=bool, default=True,
-                        help='blank')
-    parser.add_argument('--dropout', type=float, default=0.7,
-                        help='blank')
-
-    parser.add_argument('--vectors', type=torch.Tensor, default=None,
-                        help='blank')
-    # parser.add_argument('--fine_tune', type=bool, default=False,
-    #                     help='blank')
-    parser.add_argument('--data_name', type=str, default="AgNews",
-                        help="train dataset")
-    # parser.add_argument('--fine_tune_dataset', type=str, default="20News")
-    # parser.add_argument('--model_path', type=str, default='./results/NYT/{}/best_model.h5'.format(config_risk.global_risk_dataset),
-    #                    help='the saved model where you want to resume the training')
-    #parser.add_argument('--data_selection', type=int, default=20,
-    #                    help='config.py')
-    #parser.add_argument('--deep_learning_selection', type=int, default=0,
-    #                    help='config.py')
-    parser.add_argument('--rate', type=float, default=1.0,
-                        help='training rate')
-
-    # parameters can be tuning
-    parser.add_argument('--seed', type=int, default=1234,
-                        help='random seed of settings')
-    parser.add_argument('--epoches', type=int, default=20,
-                        help='epoch (RiskModel.train) numbers')
-    parser.add_argument('--learning_rate', type=float, default=0.001,
-                        help='learing rate of RiskTorchModel')
-    parser.add_argument('--bs', type=int, default=64,
-                        help='batch size in RiskTorchModel')
-
-    args, _ = parser.parse_known_args()
-    return args
 
 
 def train(train_iter, dev_iter, model, args):
@@ -272,9 +222,9 @@ def main(args):
         print("CHA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         stopwords = stopwordslist("./stopwords/cn_stopwords.txt")
     else:
-
         print("ENG~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         stopwords = stopwordslist("./stopwords/en.txt")
+
     print("load words")
 
     cur_path = '{}_bert/{}/'.format(args.data_name, args.rate)
@@ -285,17 +235,6 @@ def main(args):
         old_files = os.path.join(cur_path, f"{name}.json")
         new_files = os.path.join(cur_path, f"new_{name}.json")
         torchtext_file(old_files, new_files)
-
-    # text, label, id = load_data1(cur_path + 'train.json')
-    # train_data = [text, label, id]  # [[texts], [labels], [ids]]
-    #
-    # print(f'train_data nums: {len(id)}')
-    #
-    # text, label, id = load_data1(cur_path + 'val.json')
-    # valid_data = [text, label, id]  # [[texts], [labels], [ids]]
-    #
-    # text, label, id = load_data1(cur_path + 'test.json')
-    # test_data = [text, label, id]  # [[texts], [labels], [ids]]
 
     def cut(sentence):
         return [token for token in jieba.lcut(sentence) if token not in stopwords]
@@ -319,13 +258,8 @@ def main(args):
     )
 
     #  load pretrained vector
-    vector_cache = "pretrained_vector"
     if not os.path.exists(vector_cache):
         os.mkdir(vector_cache)
-
-    # vectors = torchtext.vocab.GloVe(name='6B', dim=300, cache=vector_cache)
-    # args.vocab_size = vectors.vectors.size(0)
-    # args.embedding_dim = vectors.vectors.size(1) # 词向量维度
 
     pretrained_name = 'crawl-300d-2M.vec'  # 预训练词向量文件名
     #pretrained_path = './drive/My Drive/TextCNN/word_embedding'  # 预训练词向量存放路径
@@ -338,12 +272,6 @@ def main(args):
                      vectors=vectors)
     LABEL.build_vocab(train_dataset, dev_dataset, test_dataset)
     print("-------------- finish building vector --------------------------")
-
-    # args.vocab_size = len(TEXT.vocab)
-    # args.embedding_dim = TEXT.vocab.vectors.size()[-1] # 词向量维度
-    # args.vector = TEXT.vocab.vectors # 词向量
-    # vectors = TEXT.vocab.vectors
-    # print(type(TEXT.vocab.vectors))
 
     vector = vectors.vectors
     model = TextCNN(args, vector)
@@ -361,109 +289,11 @@ def main(args):
     save_dir = f"{args.data_name}_cnn/{args.rate}"
     test(test_iter, model, save_dir)
 
-def fine_tune():
-    if args.data_name in ["fudan", "qinghua"]:
-        print("CHA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        stopwords = stopwordslist("./stopwords/cn_stopwords.txt")
-    else:
-
-        print("ENG~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        stopwords = stopwordslist("./stopwords/en.txt")
-    print("load words")
-
-    cur_path = '{}_bert/{}/'.format(args.data_name, args.rate)
-
-    # convert files
-    nameList = ["train", "test", "val"]
-    for name in nameList:
-        old_files = os.path.join(cur_path, f"{name}.json")
-        new_files = os.path.join(cur_path, f"new_{name}.json")
-        torchtext_file(old_files, new_files)
-
-    # text, label, id = load_data1(cur_path + 'train.json')
-    # train_data = [text, label, id]  # [[texts], [labels], [ids]]
-    #
-    # print(f'train_data nums: {len(id)}')
-    #
-    # text, label, id = load_data1(cur_path + 'val.json')
-    # valid_data = [text, label, id]  # [[texts], [labels], [ids]]
-    #
-    # text, label, id = load_data1(cur_path + 'test.json')
-    # test_data = [text, label, id]  # [[texts], [labels], [ids]]
-
-    def cut(sentence):
-        return [token for token in jieba.lcut(sentence) if token not in stopwords]
-    # 声明一个Field对象，对象里面填的就是需要对文本进行哪些操作，比如这里lower=True英文大写转小写,tokenize=cut对于文本分词采用之前定义好的cut函数，sequence=True表示输入的是一个sequence类型的数据，还有其他更多操作可以参考文档
-    TEXT = Field(sequential=True, lower=True, tokenize=cut)
-    # 声明一个标签的LabelField对象，sequential=False表示标签不是sequence，dtype=torch.int64标签转化成整形
-    LABEL = LabelField(sequential=False, use_vocab=False)
-
-    # 这里主要是告诉torchtext需要处理哪些数据，这些数据存放在哪里，TabularDataset是一个处理scv/tsv的常用类
-    train_dataset, dev_dataset, test_dataset = TabularDataset.splits(
-        path=f'{args.data_name}_bert/{args.rate}/',  # 文件存放路径
-        #path=f'BBC_bert/',  # 文件存放路径
-        format='json',  # 文件格式
-        skip_header=False,  # 是否跳过表头，我这里数据集中没有表头，所以不跳过
-        train='new_val.json',
-        validation='new_test.json',
-        test='new_test.json',
-        fields={'label': ("label", LABEL), 'text': ("text", TEXT)}  # 该版本的torchtext的不需要None
-        #fields=[('id', None), ('label', LABEL), ('text', TEXT)]
-        #fields={"id":None,'label':("label",LABEL), 'text': ("text",TEXT)}  # 定义数据对应的表头
-    )
-
-    #  load pretrained vector
-    vector_cache = "pretrained_vector"
-    if not os.path.exists(vector_cache):
-        os.mkdir(vector_cache)
-
-    # vectors = torchtext.vocab.GloVe(name='6B', dim=300, cache=vector_cache)
-    # args.vocab_size = vectors.vectors.size(0)
-    # args.embedding_dim = vectors.vectors.size(1) # 词向量维度
-
-    pretrained_name = 'crawl-300d-2M.vec'  # 预训练词向量文件名
-    #pretrained_path = './drive/My Drive/TextCNN/word_embedding'  # 预训练词向量存放路径
-    vectors = torchtext.vocab.Vectors(name=pretrained_name, cache=vector_cache)
-    args.vocab_size = vectors.vectors.size(0)
-    args.embedding_dim = vectors.vectors.size(1) # 词向量维度
-
-    print("-------------- build vector --------------------------")
-    TEXT.build_vocab(train_dataset, dev_dataset, test_dataset,
-                     vectors=vectors)
-    LABEL.build_vocab(train_dataset, dev_dataset, test_dataset)
-    print("-------------- finish building vector --------------------------")
-
-    # args.vocab_size = len(TEXT.vocab)
-    # args.embedding_dim = TEXT.vocab.vectors.size()[-1] # 词向量维度
-    # args.vector = TEXT.vocab.vectors # 词向量
-    # vectors = TEXT.vocab.vectors
-    # print(type(TEXT.vocab.vectors))
-
-    vector = vectors.vectors
-    model = TextCNN(args, vector)
-
-    save_dir = f"{args.data_name}_cnn/{args.rate}/"
-    save_path = save_dir + 'bestmodel.pt'
-    model.load_state_dict(torch.load(save_path))
-
-    print("-------------------------------- finish load model ---------------------")
-    # torchtext.data.BucketIterator.splits 使用BucketIterator生成迭代器的主要是因为BucketIterator能够将样本长度接近的句子尽量放在同一个batch里面，这样假如这里我们每128个样本为一个batch，句子长度差距过大，就会给短句加入过多的无意义的<pad>，但是句子长度相近的在一个batch里面的话，就能够避免这个问题
-    train_iter, dev_iter, test_iter = BucketIterator.splits(
-        (train_dataset, dev_dataset, test_dataset),  # 需要生成迭代器的数据集
-        batch_sizes=(128, 128, 128),  # 每个迭代器分别以多少样本为一个batch
-        sort_key=lambda x: len(x.text)  # 按什么顺序来排列batch，这里是以句子的长度，就是上面说的把句子长度相近的放在同一个batch里面
-    )
-
-    train(train_iter, dev_iter, model, args)
-
-
-    test(test_iter, model, save_dir)
-
 if __name__ =="__main__":
 
     args = get_params()
     main(args)
-    # fine_tune()
+
 
 
 

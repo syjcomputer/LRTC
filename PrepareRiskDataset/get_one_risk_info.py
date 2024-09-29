@@ -3,10 +3,10 @@ from os.path import join
 import os
 import numpy as np
 import pandas as pd
-from get_one_distance import get_one_distance
-from get_one_knn_count import get_one_knn_count
-from get_one_token_count import get_one_token_count
-from get_one_cluster_count import get_one_cluster_count
+from PrepareRiskDataset.get_one_distance import get_one_distance
+from PrepareRiskDataset.get_one_knn_count import get_one_knn_count
+from PrepareRiskDataset.get_one_token_count import get_one_token_count
+from PrepareRiskDataset.get_one_cluster_count import get_one_cluster_count
 
 
 def get_one_risk_info(
