@@ -2,7 +2,7 @@
 This project has some work to do:
 * train a base model, e.g., bert.
 * calculate risk metrics with bert, textcnn,  statistics.
-* calculate risk feature with risk metrics through knn and ccd.
+* calculate risk element with risk metrics through knn and ccd.
 
 ## Data Prepare
 To run this project, you need prepare your data in {source_dataset}_bert/1.0 as follow:
