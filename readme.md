@@ -1,4 +1,4 @@
-# **[TransferLearningForTextClassificationViaModelRisk](https://github.com/syjcomputer/RMTransfer)**
+# **[TransferLearningForTextClassificationViaModelRiskAnalysis](https://github.com/syjcomputer/RMTransfer)**
 
 This project is the code for fine-tuning pre-trained NLP models via RiskAnalysis on small samples, mainly focused on news classification. In this project, we take Bert as an example, you can use other nlp models.
 
