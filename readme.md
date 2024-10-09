@@ -37,7 +37,7 @@ scikit-learn==1.0.2
 ## Quick Start
 
 ### Data Prepare
-The origin dataset need to be prepared in the folder named**PrepareRiskDataset/{source_dataset}/1.0** as follows:
+The origin dataset need to be prepared in the folder named**PrepareRiskDataset/{source_dataset}_bert/1.0** as follows:
 ```
 AgNews_bert
  |-1.0- |-train.json # dataset from source dataset
