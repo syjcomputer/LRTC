@@ -42,7 +42,7 @@ The origin dataset need to be prepared in the folder named**PrepareRiskDataset/{
 AgNews_bert
  |-1.0- |-train.json # dataset from source dataset
  |      |-val.json  # dataset from target dataset
- |      |-test.json # dataset from source dataset
+ |      |-test.json # dataset from target dataset
  |
  |-class.txt # class nums, each line represent a class
 ```
