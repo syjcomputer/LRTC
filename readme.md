@@ -61,6 +61,22 @@ We prepare readme.md for each part in each project folder.
 ## Citations
 If you find this repo or our work useful for your research, please consider citing the paper
 ```bibtex
-
+@inproceedings{sun-etal-2024-transfer,
+    title = "Transfer Learning for Text Classification via Model Risk Analysis",
+    author = "Sun, Yujie  and
+      Fan, Chuyi  and
+      Chen, Qun",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.160/",
+    doi = "10.18653/v1/2024.findings-emnlp.160",
+    pages = "2814--2825"
+}
 ```
 
